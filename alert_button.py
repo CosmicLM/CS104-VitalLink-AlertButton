@@ -5,7 +5,7 @@ import RPi.GPIO as GPIO
 # --- Configuration ---
 # Your full API URL including the token
 CHAT_ID = "8538968211"
-API_URL = f"https://api.telegram.org/bot8284782019:AAHM9EvnXeZ3_L2GdBsZftoJAjK6Oo4-hJk/sendMessage"
+API_URL = f"https://api.telegram.org/bot8284782019:[MY_API]/sendMessage"
 
 # --- GPIO Setup ---
 GPIO.setmode(GPIO.BOARD)
